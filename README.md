@@ -26,7 +26,7 @@ Property Schema Publisher is a real estate structured-data and AI-readiness engi
 ## Local run
 
 ```powershell
-Set-Location "C:\Users\chaus\dev\repos\property-schema-publisher"
+cd property-schema-publisher
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe -m app.main
